@@ -29,6 +29,10 @@
 		EF1A71DB2A36BBB100FCEF7D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71DA2A36BBB100FCEF7D /* ProfileView.swift */; };
 		EF1A71DD2A37660D00FCEF7D /* ToDoListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71DC2A37660D00FCEF7D /* ToDoListViewViewModel.swift */; };
 		EF1A71DF2A37673800FCEF7D /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71DE2A37673800FCEF7D /* NewItemView.swift */; };
+		EF1A71E12A3777AD00FCEF7D /* NewItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71E02A3777AD00FCEF7D /* NewItemViewViewModel.swift */; };
+		EF1A71E32A3844C700FCEF7D /* ToDoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71E22A3844C700FCEF7D /* ToDoListItemView.swift */; };
+		EF1A71E52A3844DB00FCEF7D /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71E42A3844DB00FCEF7D /* ToDoListItemViewViewModel.swift */; };
+		EF1A71E72A3A0BAF00FCEF7D /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A71E62A3A0BAF00FCEF7D /* ProfileViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		EF1A71DA2A36BBB100FCEF7D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		EF1A71DC2A37660D00FCEF7D /* ToDoListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewViewModel.swift; sourceTree = "<group>"; };
 		EF1A71DE2A37673800FCEF7D /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		EF1A71E02A3777AD00FCEF7D /* NewItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewViewModel.swift; sourceTree = "<group>"; };
+		EF1A71E22A3844C700FCEF7D /* ToDoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemView.swift; sourceTree = "<group>"; };
+		EF1A71E42A3844DB00FCEF7D /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		EF1A71E62A3A0BAF00FCEF7D /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,9 @@
 				EF1A71BD2A35890100FCEF7D /* LoginViewViewModel.swift */,
 				EF1A71C12A3590AE00FCEF7D /* RegisterViewViewModel.swift */,
 				EF1A71DC2A37660D00FCEF7D /* ToDoListViewViewModel.swift */,
+				EF1A71E02A3777AD00FCEF7D /* NewItemViewViewModel.swift */,
+				EF1A71E42A3844DB00FCEF7D /* ToDoListItemViewViewModel.swift */,
+				EF1A71E62A3A0BAF00FCEF7D /* ProfileViewViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -136,6 +147,7 @@
 				EF1A71D82A36BBA100FCEF7D /* ToDoListView.swift */,
 				EF1A71DA2A36BBB100FCEF7D /* ProfileView.swift */,
 				EF1A71DE2A37673800FCEF7D /* NewItemView.swift */,
+				EF1A71E22A3844C700FCEF7D /* ToDoListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,16 +245,20 @@
 				EF1A71BC2A3588EE00FCEF7D /* LoginView.swift in Sources */,
 				EF1A71CF2A35A6AD00FCEF7D /* CustomBtn.swift in Sources */,
 				EF1A71D72A36B90F00FCEF7D /* MainViewViewModel.swift in Sources */,
+				EF1A71E52A3844DB00FCEF7D /* ToDoListItemViewViewModel.swift in Sources */,
 				EF1A71C02A3590A000FCEF7D /* RegisterView.swift in Sources */,
 				EF1A71DD2A37660D00FCEF7D /* ToDoListViewViewModel.swift in Sources */,
 				EF1A71C22A3590AE00FCEF7D /* RegisterViewViewModel.swift in Sources */,
+				EF1A71E32A3844C700FCEF7D /* ToDoListItemView.swift in Sources */,
 				EF1A71D52A36306700FCEF7D /* Extension.swift in Sources */,
 				EF1A71AC2A3587FD00FCEF7D /* MainView.swift in Sources */,
 				EF1A71D12A362D3600FCEF7D /* User.swift in Sources */,
+				EF1A71E12A3777AD00FCEF7D /* NewItemViewViewModel.swift in Sources */,
 				EF1A71D92A36BBA100FCEF7D /* ToDoListView.swift in Sources */,
 				EF1A71AA2A3587FD00FCEF7D /* ToDoListPracticeApp.swift in Sources */,
 				EF1A71BE2A35890100FCEF7D /* LoginViewViewModel.swift in Sources */,
 				EF1A71D32A362D4C00FCEF7D /* ToDoListItem.swift in Sources */,
+				EF1A71E72A3A0BAF00FCEF7D /* ProfileViewViewModel.swift in Sources */,
 				EF1A71DB2A36BBB100FCEF7D /* ProfileView.swift in Sources */,
 				EF1A71CD2A35A3D000FCEF7D /* HeaderView.swift in Sources */,
 			);
