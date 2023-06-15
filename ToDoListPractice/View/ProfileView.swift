@@ -38,14 +38,14 @@ struct ProfileView: View {
         
         VStack(alignment: .leading) {
             HStack {
-                Text("Name：")
+                Text("Name:")
                     .bold()
                 Text(user.name)
             }
             .padding()
             
             HStack {
-                Text("Email：")
+                Text("Email:")
                     .bold()
                 Text(user.email)
             }
